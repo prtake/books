@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/book/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597494527096</updated>
       <workItem from="1597494528467" duration="89000" />
+      <workItem from="1597494623638" duration="636000" />
     </task>
     <servers />
   </component>
@@ -53,9 +54,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="200" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597494613021" />
-    <state x="344" y="78" key="SettingsEditor" timestamp="1597494614280">
+    <state x="344" y="78" key="SettingsEditor" timestamp="1597494629030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597494614280" />
+    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597494629030" />
   </component>
 </project>

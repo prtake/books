@@ -1,0 +1,10 @@
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (1, '770117176@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (2, '2792899041@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (3, '1077195265@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (4, '1@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (5, '123@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (6, '1234@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (7, '12345@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (8, '123456@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (9, '1234567@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
+INSERT INTO `user`(`id`, `email`, `pwd`) VALUES (10, '12345678@qq.com', 'c4ca4238a0b923820dcc509a6f75849b');
