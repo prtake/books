@@ -1,0 +1,40 @@
+<script src="/static/admin/js/skins.min.js"></script>
+<!--Basic Scripts-->
+<script src="/static/admin/js/jquery.min.js"></script>
+<script src="/static/admin/js/bootstrap.min.js"></script>
+<script src="/static/admin/js/slimscroll/jquery.slimscroll.min.js"></script>
+<!--Beyond Scripts-->
+<script src="/static/admin/js/beyond.js"></script>
+<script src="/static/admin/lib/layer/layer.js"></script>
+<script>
+    $(window).bind("load", function () {
+
+        /*Sets Themed Colors Based on Themes*/
+        themeprimary = getThemeColorFromCss('themeprimary');
+        themesecondary = getThemeColorFromCss('themesecondary');
+        themethirdcolor = getThemeColorFromCss('themethirdcolor');
+        themefourthcolor = getThemeColorFromCss('themefourthcolor');
+        themefifthcolor = getThemeColorFromCss('themefifthcolor');
+
+    });
+    $(function () {
+        //登录安装设置点击事件
+        $('#loginout').click(function () {
+            //使用AjaX传值
+            $.ajax({
+                url: "{:url('admin/User/loginout')}",//数据接收页面
+                //传值成功后的操作
+                success: function (data) {
+                    layer.msg(data.msg, {
+                        icon: 6,
+                        time: 1000,
+                    }, function () {
+                        location.href = data.url;
+                    });
+                }
+            })
+
+        })
+
+    })
+</script>

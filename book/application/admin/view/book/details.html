@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>图书列表</title>
+    <link rel="shortcut icon" href="/static/admin/img/logo.jpg" type="image/x-icon">
+    <link href="/static/admin/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/static/admin/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/static/admin/css/weather-icons.min.css" rel="stylesheet"/>
+    <link id="beyond-link" href="/static/admin/css/beyond.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Loading Container -->
+<div class="loading-container">
+    <div class="loader"></div>
+</div>
+<!--  /Loading Container -->
+<!-- Navbar -->
+{include file="public/header" /}
+<!-- /Navbar -->
+<!-- Main Container -->
+<div class="main-container container-fluid">
+    <!-- Page Container -->
+    <div class="page-container">
+
+        <!-- Page Sidebar -->
+        {include file="public/left" /}
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li class="active">
+                        <i class="fa fa-home"></i>&nbsp;图书管理
+                    </li>
+                    <li>图书列表</li>
+                </ul>
+            </div>
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="widget">
+                            <div class="widget-header">
+                                <span class="widget-caption">图书详情</span>
+                            </div>
+                            <div class="widget-body">
+                                <table class="table table-hover table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>ISBN</th>
+                                        <th>图书名称</th>
+                                        <th>图片价格</th>
+                                        <th>图片库存</th>
+                                        <th>图片封面</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>{$res.isbn}</td>
+                                        <td>{$res.name}</td>
+                                        <td>{$res.price}</td>
+                                        <td>{$res.num}</td>
+                                        <td>><img src="{$res.picture}">
+                                        <td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Page Content -->
+
+        </div>
+        <!-- /Page Container -->
+        <!-- Main Container -->
+    </div>
+</div>
+{include file="public/js"/}
+</body>
+<!--  /Body -->
+</html>
